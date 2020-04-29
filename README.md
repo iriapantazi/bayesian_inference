@@ -30,6 +30,7 @@ The input files from each example are:
 
 # Notes
   - pandas dataframe is not used
+  - keep the example file (which is the default under the files/ directory)
 
 ## Contributions
 If you have any suggestions/corrections,

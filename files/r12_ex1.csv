@@ -1,0 +1,5 @@
+# calculation of posterior predictive probability for data
+theta, 0.5, 0.6, 0.9
+prior, 0.5, 0.25, 0.25
+toss, 1, 1
+predictive, 1

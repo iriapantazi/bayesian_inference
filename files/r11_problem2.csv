@@ -1,0 +1,4 @@
+# reading 11, problem 2
+theta, 0.8, 0.01, 0.7
+prior, 0.0, 1.0, 0.0
+toss, 0
