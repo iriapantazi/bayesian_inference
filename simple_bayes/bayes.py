@@ -1,11 +1,12 @@
 #! /usr/bin/env python
 
 import sys
+import os
 import argparse
-import analysis_functions as af
+from simple_bayes import analysis_functions
 
 # constants
-COINS_FILE = 'files/coins.csv'
+COINS_FILE = 'data_files/example_coins.csv'
 
 def detect_python_version():
     """
@@ -41,13 +42,14 @@ def main(args=None):
     Returns: -
     """
 
-    # to be included in web API endpoint
     if args == None:
         args = parse_arguments()
 
-    # coin input
+    # input
     if args.input:
-        af.coins(args.input)
+        if args.input == COINS_FILE:
+            print(f'No input file provided, will use {COINS_FILE}.')
+        analysis_functions.coins(args.input)
     else:
         print(f'No mode was provided, please see help. Program exits.')
         sys.exit(-1)

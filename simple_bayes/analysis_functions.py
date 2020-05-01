@@ -88,6 +88,7 @@ def coins(infile):
     3. the data from the experiment's execution (x vector)
     TODO: input format validation
     """
+    
     pred = None
     with open(infile, 'r') as f:
         for line in f.readlines():

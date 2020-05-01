@@ -1,1 +1,4 @@
-__pycache__/
+.pytest_cache/
+MANIFEST
+simple_bayes/__pycache__/
+simple_bayes/tests/__pycache__/

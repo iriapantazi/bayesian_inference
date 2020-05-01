@@ -35,3 +35,26 @@ The input files from each example are:
 ## Contributions
 If you have any suggestions/corrections,
 please contact [Iria Pantazi](iria.a.pantazi@gmail.com).
+.
+├── files
+│   ├── coins.csv
+│   ├── r11_ex1.csv
+│   ├── r11_ex2.csv
+│   ├── r11_ex3.csv
+│   ├── r11_problem1.csv
+│   ├── r11_problem2.csv
+│   └── r12_ex1.csv
+├── lib
+│   ├── analysis_functions.py
+│   ├── bayesian_inference.py
+│   └── __init__.py
+├── __pycache__
+│   ├── analyse_coins.cpython-38.pyc
+│   ├── analyse_functions.cpython-38.pyc
+│   ├── analysis_functions.cpython-38.pyc
+│   └── coins.cpython-38.pyc
+├── README.md
+├── requirements.txt
+└── tests
+    ├── test_analysis_functions.py
+    └── test_bayesian_inference.py

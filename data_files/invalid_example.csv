@@ -1,0 +1,9 @@
+# file including spelling mistakes on purpose
+# missing a bias (theta)
+theta, 0.5, 0.6,
+# wrong number input
+prior, 0.5, 0.25, 0.
+# misspelled keyword
+tos, 1, 1
+# invalid value
+predictive, 2
