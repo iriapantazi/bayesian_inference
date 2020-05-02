@@ -15,8 +15,8 @@ class PostHypotheses():
         self.prior = np.array(prior, dtype=np.float32)
         # keep the prior bcs it will be updated if tosses > 1
         self.init_prior = self.prior
-        self.likelihood = np.asarray(likelihood, dtype=np.float32)
-        self.toss = np.asarray(toss, dtype=np.int)
+        self.likelihood = np.array(likelihood, dtype=np.float32)
+        self.toss = np.array(toss, dtype=np.int)
 
 
     def posterior(self):
